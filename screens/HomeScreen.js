@@ -13,6 +13,7 @@ import PagerView from 'react-native-pager-view';
 import React from "react";
 import { AntDesign } from "@expo/vector-icons";
 import FoodTypes from "../components/FoodTypes";
+import UserTypes from "../components/UserTypes";
 import FoodCategories from "../components/FoodCategories";
 import QuickFood from "../components/QuickFood";
 import { Ionicons } from "@expo/vector-icons";
@@ -114,6 +115,8 @@ const HomeScreen = () => {
       <FoodCategories />
       {/* Food Item Types */}
       <FoodTypes />
+      {/* user Types */}
+      <UserTypes />
       {/* Quick Food Component */}
       <QuickFood />
       {/*<HexagonalButton />*/}

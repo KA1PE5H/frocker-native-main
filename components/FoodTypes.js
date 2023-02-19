@@ -6,33 +6,33 @@ const FoodTypes = () => {
     const types = [
         {
             id:"0",
-            image:'../assets/u1.png',
+            image:'https://github.com/KA1PE5H/frocker-native-main/blob/main/assets/salad.png',
             name:"Salad",
         },
         {
             id:"1",
-            image:"../assets/u1.png",
+            image:"https://github.com/KA1PE5H/frocker-native-main/blob/main/assets/salad.png",
             name:"Barbecue"
         },
         {
             id:"2",
-            image:"../assets/u1.png",
+            image:"https://github.com/KA1PE5H/frocker-native-main/blob/main/assets/salad.png",
             name:"Pancakes"
         },
         {
             id:"3",
-            image:"../assets/u1.png",
+            image:"https://github.com/KA1PE5H/frocker-native-main/blob/main/assets/salad.png",
             name:"Burger",
 
         },
         {
             id:"4",
-            image:"../assets/u1.png",
+            image:"https://github.com/KA1PE5H/frocker-native-main/blob/main/assets/salad.png",
             name:"Nuggets"
         },
         {
             id:"5",
-            image:"../assets/u1.png",
+            image:"https://github.com/KA1PE5H/frocker-native-main/blob/main/assets/salad.png",
             name:"Ice-creams"
         }
     ]

@@ -6,28 +6,28 @@ const UserTypes = () => {
     const utypes = [
         {
             id:"0",
-            image:"../assets/u1.png",
+            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u1.png?token=GHSAT0AAAAAAB65ZMCQEMQQNA7X22OZ7GC4Y7RXQWA",
             name:"Sophia",
         },
         {
             id:"1",
-            image:"../assets/u1.png",
+            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u1.png?token=GHSAT0AAAAAAB65ZMCQEMQQNA7X22OZ7GC4Y7RXQWA",
             name:"Max"
         },
         {
             id:"2",
-            image:"../assets/u1.png",
+            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u1.png?token=GHSAT0AAAAAAB65ZMCQEMQQNA7X22OZ7GC4Y7RXQWA",
             name:"Richa"
         },
         {
             id:"3",
-            image:"../assets/u1.png",
+            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u1.png?token=GHSAT0AAAAAAB65ZMCQEMQQNA7X22OZ7GC4Y7RXQWA",
             name:"Ashley",
 
         },
         {
             id:"4",
-            image:"../assets/u1.png",
+            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u1.png?token=GHSAT0AAAAAAB65ZMCQEMQQNA7X22OZ7GC4Y7RXQWA",
             name:"James"
         }
     ]
