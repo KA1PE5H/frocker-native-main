@@ -1,7 +1,15 @@
+import r1 from "../assets/r1.png"
+import r2 from "../assets/r2.png"
+import r3 from "../assets/r3.png"
+import r4 from "../assets/r4.png"
+import r5 from "../assets/r5.png"
+import r6 from "../assets/r6.png"
+import r7 from "../assets/r7.png"
+import r8 from "../assets/r8.png"
 export default [
     {
         id:"0",
-        image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/e0vvulfbahjxjz6k4uwi",
+        image:"https://drive.google.com/file/d/1vETDd7rXg6WmBp1Tv--pzv9cQp7M7gX1",
         name:"KFC King",
         rating:4.4,
         time:"30-40",
@@ -12,7 +20,7 @@ export default [
     },
     {
         id:"1",
-        image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/lvxyt7qdchtmzh8telc2",
+        image:r2,
         name:"Barbecue Nation",
         rating:4.2,
         time:"30-40",
@@ -24,7 +32,7 @@ export default [
     },
     {
         id:"2",
-        image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/pbtwdcg4rcktb89hrxbc",
+        image:r3,
         name:"East-West",
         rating:4.3,
         time:"45-50",
@@ -37,7 +45,7 @@ export default [
     ,
     {
         id:"3",
-        image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/pbtwdcg4rcktb89hrxbc",
+        image:r4,
         name:"Big Bowl Factory",
         rating:4.3,
         time:"45-50",
@@ -49,7 +57,7 @@ export default [
     },
     {
         id:"4",
-        image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/pbtwdcg4rcktb89hrxbc",
+        image:r5,
         name:"Town Square",
         rating:4.3,
         time:"45-50",
@@ -61,7 +69,7 @@ export default [
     },
     {
         id:"5",
-        image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/pbtwdcg4rcktb89hrxbc",
+        image:r6,
         name:"Amma's Pastries",
         rating:4.3,
         time:"45-50",
@@ -73,7 +81,7 @@ export default [
     },
     {
         id:"6",
-        image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/pbtwdcg4rcktb89hrxbc",
+        image:r7,
         name:"Azure Cafe",
         rating:4.3,
         time:"45-50",
@@ -85,7 +93,7 @@ export default [
     },
     {
         id:"7",
-        image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/pbtwdcg4rcktb89hrxbc",
+        image:r8,
         name:"Truffles",
         rating:4.3,
         time:"45-50",

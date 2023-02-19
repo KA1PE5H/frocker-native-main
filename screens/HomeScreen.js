@@ -16,6 +16,7 @@ import FoodTypes from "../components/FoodTypes";
 import UserTypes from "../components/UserTypes";
 import FoodCategories from "../components/FoodCategories";
 import QuickFood from "../components/QuickFood";
+import Restaurants from "../components/Restaurants";
 import { Ionicons } from "@expo/vector-icons";
 import hotels from "../data/hotels";
 import MenuItem from "../components/MenuItem";
@@ -120,11 +121,9 @@ const HomeScreen = () => {
       {/* Quick Food Component */}
       <QuickFood />
       {/*<Restaurants />*/}
-      <Text style={{ margin:20,fontSize: 14,textAlign: 'center', fontWeight: "700" , font: "Nunito"}}>Pick from our best restaurant</Text>
-      {data.map((item,index) => (
-        <MenuItem key={index} item={item}/>
-      ))}
+      <Restaurants/>
     </ScrollView>
+    
   );
 };
 

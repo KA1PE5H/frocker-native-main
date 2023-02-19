@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View ,ScrollView,Image} from 'react-native'
 import React from 'react'
 
+
 const FoodTypes = () => {
     
     const types = [
