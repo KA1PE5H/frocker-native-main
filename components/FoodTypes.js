@@ -6,29 +6,34 @@ const FoodTypes = () => {
     const types = [
         {
             id:"0",
-            image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/rwnkrdtnusqdkyjssahq",
-            name:"Biriyani",
+            image:'../assets/u1.png',
+            name:"Salad",
         },
         {
             id:"1",
-            image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/qwrkgxefwzjergtzowsc",
-            name:"Dessert"
+            image:"../assets/u1.png",
+            name:"Barbecue"
         },
         {
             id:"2",
-            image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/uckbx3rr87jhakb81mbs",
-            name:"Burger"
+            image:"../assets/u1.png",
+            name:"Pancakes"
         },
         {
             id:"3",
-            image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/z9xmu9pb65lcbt3wepud",
-            name:"Salad",
+            image:"../assets/u1.png",
+            name:"Burger",
 
         },
         {
             id:"4",
-            image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/m7osxfhdon2opecztidb",
-            name:"Sandwiches"
+            image:"../assets/u1.png",
+            name:"Nuggets"
+        },
+        {
+            id:"5",
+            image:"../assets/u1.png",
+            name:"Ice-creams"
         }
     ]
 
