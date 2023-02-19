@@ -14,37 +14,41 @@ const QuickFood = () => {
   const data = quickfood;
   return (
     <View style={{ margin: 10 }}>
-      <Text style={{ margin:20,fontSize: 14,textAlign: 'center', fontWeight: "700" , font: "Nunito"}}>Here is A Small Sneak Peak into the offers</Text>
+      <Text style={{ margin:20,fontSize: 14,textAlign: 'center', fontWeight: "700" , font: "Nunito"}}>Here is A Small Sneak Peak...</Text>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         {data.map((item, index) => (
-          <Pressable style={{ margin: 10 }} key={index}>
+          <Pressable style={{ margin: 3 }} key={index}>
             <ImageBackground
-              imageStyle={{ borderRadius: 6 }}
-              style={{ aspectRatio: 5 / 6, height: 170 }}
+              imageStyle={{ borderRadius: 0 }}
+              style={{ width:100, height: 200 }}
               source={{ uri: item.image }}
             >
               <Text
                 style={{
                   position: "absolute",
-                  bottom: 10,
-                  left: 10,
-                  fontSize: 27,
-                  fontWeight: "900",
+                  bottom: 15,
+                  left: 4,
+                  fontSize: 10,
+                  fontWeight: "400",
                   color: "white",
                 }}
               >
-                {item.offer} OFF
+                {item.description}
+              </Text>
+              <Text
+                style={{
+                  position: "absolute",
+                  bottom: 2,
+                  left: 4,
+                  fontSize: 10,
+                  fontWeight: "400",
+                  color: "white",
+                }}
+              >
+                {item.views} Views
               </Text>
             </ImageBackground>
-            <Text style={{ marginTop: 10, fontSize: 16, fontWeight: "500" }}>
-              {item.name}
-            </Text>
-            <View style={{flexDirection:"row",alignItems:"center",marginTop:3}}>
-              <MaterialIcons name="stars" size={24} color="green" />
-              <Text style={{marginLeft:3,fontSize:15,fontWeight:"400"}}>{item.rating}</Text>
-              <Text style={{marginLeft:3}}>•</Text>
-              <Text style={{marginLeft:3,fontSize:15,fontWeight:"400"}}>{item.time}mins</Text>
-            </View>
+            
           </Pressable>
         ))}
       </ScrollView>

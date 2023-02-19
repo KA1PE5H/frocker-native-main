@@ -11,23 +11,23 @@ const UserTypes = () => {
         },
         {
             id:"1",
-            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u1.png?token=GHSAT0AAAAAAB65ZMCQEMQQNA7X22OZ7GC4Y7RXQWA",
+            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u2.png?token=GHSAT0AAAAAAB65ZMCRWBJDD37E2JKHUOBYY7RXSTQ",
             name:"Max"
         },
         {
             id:"2",
-            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u1.png?token=GHSAT0AAAAAAB65ZMCQEMQQNA7X22OZ7GC4Y7RXQWA",
+            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u3.png?token=GHSAT0AAAAAAB65ZMCRJLFVMJ72CZSFKL5CY7RXTBQ",
             name:"Richa"
         },
         {
             id:"3",
-            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u1.png?token=GHSAT0AAAAAAB65ZMCQEMQQNA7X22OZ7GC4Y7RXQWA",
+            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u4.png?token=GHSAT0AAAAAAB65ZMCQSDXX6Z7CMSEWJBJGY7RXTPQ",
             name:"Ashley",
 
         },
         {
             id:"4",
-            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u1.png?token=GHSAT0AAAAAAB65ZMCQEMQQNA7X22OZ7GC4Y7RXQWA",
+            image:"https://raw.githubusercontent.com/KA1PE5H/frocker-native-main/main/assets/u5.png?token=GHSAT0AAAAAAB65ZMCRD6Y55L5BPGS3PXQKY7RXT3A",
             name:"James"
         }
     ]
