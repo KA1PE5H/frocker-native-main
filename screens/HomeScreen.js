@@ -119,7 +119,7 @@ const HomeScreen = () => {
       <UserTypes />
       {/* Quick Food Component */}
       <QuickFood />
-      {/*<HexagonalButton />*/}
+      {/*<Restaurants />*/}
       <Text style={{ margin:20,fontSize: 14,textAlign: 'center', fontWeight: "700" , font: "Nunito"}}>Pick from our best restaurant</Text>
       {data.map((item,index) => (
         <MenuItem key={index} item={item}/>
